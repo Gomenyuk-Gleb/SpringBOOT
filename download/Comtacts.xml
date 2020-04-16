@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<allstuden>
+ 
+    <contacts>
+        <group>
+            <id>2</id>
+            <name>Test1</name>
+        </group>
+        <email>user8@other.com</email>
+        <id>24</id>
+        <name>Vova</name>
+        <phone>76543218</phone>
+        <surname>OtherSurname8</surname>
+    </contacts>
+    <contacts>
+        <group>
+            <id>1</id>
+            <name>Test</name>
+        </group>
+        <email>user9@other.com</email>
+        <id>25</id>
+        <name>Gleb</name>
+        <phone>76543219</phone>
+        <surname>OtherSurname9</surname>
+    </contacts>
+</allstuden>
