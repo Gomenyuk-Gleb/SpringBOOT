@@ -3,22 +3,22 @@
  
     <contacts>
         <group>
-            <id>6</id>
-            <name>Test121</name>
+            <id>1</id>
+            <name>Test</name>
         </group>
         <email>user8@other.com</email>
-        <id>74</id>
+        <id>25</id>
         <name>Vova</name>
         <phone>76543218</phone>
         <surname>OtherSurname8</surname>
     </contacts>
     <contacts>
         <group>
-            <id>6</id>
-            <name>Test121</name>
+            <id>2</id>
+            <name>Group</name>
         </group>
         <email>user9@other.com</email>
-        <id>75</id>
+        <id>26</id>
         <name>Gleb</name>
         <phone>76543219</phone>
         <surname>OtherSurname9</surname>
