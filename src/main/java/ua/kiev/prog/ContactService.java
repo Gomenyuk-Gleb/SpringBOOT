@@ -19,7 +19,7 @@ public class ContactService {
 
     @Transactional
     public void addContact(Contact contact) {
-         addGroup(contact.getGroup());
+        addGroup(contact.getGroup());
         contactRepository.save(contact);
     }
 

@@ -17,7 +17,7 @@ public class Group {
     private long id;
     private String name;
 
-    @OneToMany(mappedBy="group")
+    @OneToMany(mappedBy="group", cascade = CascadeType.ALL)
     private List<Contact> contacts = new ArrayList<Contact>();
 
     public Group() {}
@@ -47,6 +47,7 @@ public class Group {
     public List<Contact> getContacts() {
         return contacts;
     }
+
 
     public void setContacts(List<Contact> contacts) {
         this.contacts = contacts;

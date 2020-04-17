@@ -18,5 +18,4 @@ public interface ContactRepository extends JpaRepository<Contact, Long> {
     List<Contact> findByPattern(@Param("pattern") String pattern,
                                 Pageable pageable);
 
-
 }
